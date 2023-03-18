@@ -161,7 +161,7 @@ LOGOUT_REDIRECT_URL = '/'  # если логин доделали через в�
 # EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_PORT = 465
 # EMAIL_HOST_USER = 'kaynovstore@gmail.com'
-# EMAIL_HOST_PASSWORD = 'ojatdzexkrjwfnnt'
+# EMAIL_HOST_PASSWORD = 'password'
 # EMAIL_USE_SSL = True
 
 # емеил через консоль
