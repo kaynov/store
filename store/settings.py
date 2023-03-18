@@ -98,7 +98,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'store_db',
         'USER': 'postgres',
-        'PASSWORD': 's1t',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -156,16 +156,16 @@ LOGIN_URL = '/users/login/'
 LOGIN_REDIRECT_URL = '/'  # если логин доделали через вью
 LOGOUT_REDIRECT_URL = '/'  # если логин доделали через вью
 
-# Sending emails
+Sending emails
 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 465
-# EMAIL_HOST_USER = 'kaynovstore@gmail.com'
-# EMAIL_HOST_PASSWORD = 'password'
-# EMAIL_USE_SSL = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'kaynovstore@gmail.com'
+EMAIL_HOST_PASSWORD = 'password'
+EMAIL_USE_SSL = True
 
 # емеил через консоль
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # переопределить на smtp как доделаем
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # переопределить на smtp как доделаем
 
 
 # OAuth
