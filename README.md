@@ -18,3 +18,5 @@ Implemented in the project:
 5. LOGGING DUBUG:level in settings > debug.log
 
 6. for visualiztion used template Bootstrap core CSS , index page at http://127.0.0.1:8000/
+
+for requirements >> requirements.txt
